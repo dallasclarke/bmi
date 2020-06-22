@@ -10,6 +10,10 @@ const gender = getInput(0);
         const height = getInput(2);
             const weight = getInput(3);
 
+if (gender === undefined) {
+    return console.log("Please enter Gender, Age, Height & Weight.")
+}
+
 // Assigning functions to Variable.
 let bmiResult = bmiCalculator(height, weight);
     let caloriesResult = calorieIntake(gender, age, height, weight);
