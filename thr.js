@@ -2,7 +2,7 @@
 
 
 function thr(age) {
-    const messageOne = "- Your target heart-rate should be, "
+    const messageOne = "- Your target heart-rate when exercising should be, "
     if (age <= 20) {
         return messageOne + "100-170 BPM."
 }   if (age <= 30) {
